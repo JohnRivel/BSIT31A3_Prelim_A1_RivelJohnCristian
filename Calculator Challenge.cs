@@ -1,27 +1,19 @@
-while (true)
-
+﻿while (true)
 {
-
     Console.WriteLine("Enter first number (or 'exit' to quit): ");
-
     string input = Console.ReadLine();
-
     if (input.ToLower() == "exit") break;
  
     double num1 = double.Parse(input);
  
     Console.WriteLine("Enter second number: ");
-
     input = Console.ReadLine();
-
     double num2 = double.Parse(input);
  
     Console.WriteLine("Enter operation (+, -, *, /) : ");
-
     string op = Console.ReadLine();
  
     double result = 0;
-
     if (op == "+") result = num1 + num2;
  
     else if (op == "-") result = num1 - num2;
@@ -33,9 +25,7 @@ while (true)
     else continue;
  
     Console.WriteLine("Answer: ");
-
     Console.WriteLine(result);
  
  
 }
- 
